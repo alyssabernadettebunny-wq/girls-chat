@@ -1,0 +1,47 @@
+:root {
+  --text: #4a4550;
+  --text-h: #1c1a20;
+  --text-muted: #8a8592;
+  --panel: #fdf6ea;
+  --panel-alt: #f7ecd9;
+  --sidebar-bg: #fbeef6;
+  --border: #e3cfa8;
+  --accent: #e8759f;
+  --accent-soft: #ffdfec;
+  --bubble-other: #ffffff;
+  --shadow: rgba(60, 40, 30, 0.1) 0 4px 18px;
+
+  --case-pink: #f6a6c6;
+  --case-pink-dark: #d9789f;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --pixel: 'Courier New', ui-monospace, monospace;
+
+  color-scheme: light;
+  font: 15px/1.45 var(--sans);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background: radial-gradient(ellipse at 50% 0%, #fdeef5 0%, #f3e8f5 45%, #e9e2f2 100%);
+}
+
+#root {
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+button {
+  font: inherit;
+}
